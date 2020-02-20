@@ -1,0 +1,59 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    }
+button:disabled{
+    color: white
+}
+
+#heroStats{
+    color: rgb(34, 34, 236)
+}
+#enemyStats{
+    color: rgb(235, 27, 27)
+}
+.heroContainer{
+    display:flex;
+   padding: 60px;
+font-size: 25px;
+justify-content: space-around;
+}
+.enemyContainer{
+    display:flex;
+    flex-direction:row-reverse ;
+    padding: 60px;
+    font-size: 25px;
+    justify-content: space-around;
+}
+.btnContainer{
+    text-align: center;
+
+}
+button{
+   padding: 15px;
+   border-radius: 5px; 
+background-color: cornflowerblue;
+color: white;
+font-size: 20px;
+
+}
+
+button:hover{
+    border-radius: 10px;
+background-color: white;
+color: cornflowerblue;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+    justify-content: space-between;
+
+}
+img{
+   width: 300px
+}
